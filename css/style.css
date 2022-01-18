@@ -45,3 +45,22 @@ h1,h2,h3,h4,h5,button,.amiibo-name{
   border-bottom-right-radius: 50%;
   margin-left: -25%;
 }
+.card-border{
+  border: solid 10px #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s; /*que se vea despacio cuando va a terminar*/
+}
+.card-border:hover{
+  transform: scale(1.05); /*se va hacer un poquito  mas  grande*/
+}
+#games{
+  background: rgb(255, 255, 255);
+  background: url(../img/bg-02.png),linear-gradient(0deg,rgba(255,255,255,1)0%,rgba(99,196,255,1)57%);/*color degradado que se aplica en todo el contenido*/
+  background-repeat: repeat-x; /*repite la imagen varias veces ya que la imagen ayuda*/
+  background-size: 75%;/*tam de la imagen */
+  margin-top: -20px;
+}
+.texto-games{
+  color: var(--bs-blue);
+}
