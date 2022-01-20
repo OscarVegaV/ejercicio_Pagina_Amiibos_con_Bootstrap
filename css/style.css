@@ -102,3 +102,8 @@ h1,h2,h3,h4,h5,button,.amiibo-name{
 #separator-amiibos-footer{
   height: 20%;
 }
+#play{
+  background: url(../img/bg-04.png);
+  background-color: rgb(255, 255, 219);
+  background-size: 40px 40px;
+}
